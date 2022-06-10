@@ -69,16 +69,21 @@ Maka hasilnya akan seperti berikut:
 Pada dasarnya layout web dengan css dapat diimplementasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public.
 
 Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout) Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+![image](https://user-images.githubusercontent.com/101724604/173111399-79c564da-da5d-4672-8a43-881f3fe69fb8.png)
+
 
 Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
 ![image](https://user-images.githubusercontent.com/101724604/173104474-e40298b5-c421-49e8-a38c-3b2c8df7cef5.png)
 ![image](https://user-images.githubusercontent.com/101724604/173104634-60f0318a-b560-41f4-8164-c916d69fd7c8.png)
 
-Maka hasilnya seperti berikut
+Maka hasilnya seperti berikut:
+![image](https://user-images.githubusercontent.com/101724604/173109848-d8e5e997-cc7f-4981-9d44-b2b43c73e26b.png)
 
 PERTANYAAN DAN TUGAS
 
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+![image](https://user-images.githubusercontent.com/101724604/173110959-6a19666f-ea29-444e-9a05-6ea6cf4d9132.png)
+
 
 
 

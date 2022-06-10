@@ -47,4 +47,41 @@ Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http:
 
 ![image](https://user-images.githubusercontent.com/101724604/173075130-26e37c18-f7d9-4c25-aa3b-9a1f4d34dfe8.png)
 
+6. Membuat Controller
+Selanjutnya adalah membuat Controller Page. Buat file dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut
+![image](https://user-images.githubusercontent.com/101724604/173094636-45f15f45-8cd9-42a4-9e56-1da16e39a066.png)
+
+7. Auto Routing
+Secara default fitur autoroute pada Codeigniter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variablenya. Untuk menonaktifkan ubah nilai true menjadi false
+![image](https://user-images.githubusercontent.com/101724604/173098098-ef8d1c73-4684-4859-b1f9-849e011713b4.png)
+
+8. Membuat View
+Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/173098978-82427eaf-0177-4b53-b624-1a8d4d6ebf92.png)
+
+Ubah method about pada class Controller Page menjadi seperti berikut:
+![image](https://user-images.githubusercontent.com/101724604/173099867-914ed065-d1f3-493d-ab20-03cbd743b316.png)
+
+Maka hasilnya akan seperti berikut:
+![image](https://user-images.githubusercontent.com/101724604/173100145-3668f409-6a48-40ff-8d2b-dff48361beb3.png)
+
+9. . Membuat Layout Web dengan CSS
+Pada dasarnya layout web dengan css dapat diimplementasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public.
+
+Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout) Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+
+Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
+![image](https://user-images.githubusercontent.com/101724604/173104474-e40298b5-c421-49e8-a38c-3b2c8df7cef5.png)
+![image](https://user-images.githubusercontent.com/101724604/173104634-60f0318a-b560-41f4-8164-c916d69fd7c8.png)
+
+Maka hasilnya seperti berikut
+
+PERTANYAAN DAN TUGAS
+
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+
+
+
+
 

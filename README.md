@@ -37,7 +37,7 @@ Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis error
 
 Maka hasilnya akan terjadi error seperti berikut.
 
-![image](https://user-images.githubusercontent.com/101724604/173071615-978365a7-f2df-45fe-aafd-222f46855af7.png)
+![image](https://user-images.githubusercontent.com/101724604/173080741-0b385558-d927-4865-b730-e51863539ad6.png)
 
 5. Membuat Route Baru. Menambahkan kode di dalam Routes.php seperti berikut.
 

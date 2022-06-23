@@ -86,6 +86,48 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 ![image](https://user-images.githubusercontent.com/101724604/173111894-85b48e7d-2b87-4d46-8dbf-03e7445fecb5.png)
 
+#Praktikum 12: Framework Lanjutan (CRUD) Langkah-langkah Praktikum
+
+Persiapan
+
+Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP seperti berikut.
+#Praktikum 12: Framework Lanjutan (CRUD) Langkah-langkah Praktikum
+
+Persiapan
+
+Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175327201-a3980173-7577-4157-bfd5-01cb76dd682f.png)
+
+Langkah 1 Membuat database kemudian membuat Tabel dan masukkan kode pada database query seperti berikut.
+
+Langkah 2 Konfigurasi koneksi database
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Kemudian melakukan konfigurasi dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env. Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) didepan seperti berikut ini.
+![image](https://user-images.githubusercontent.com/101724604/175327436-87023461-1cfa-4d37-8edd-b462f5c8124a.png)
+
+Langkah 3 Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php lalu masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175327604-943f88fc-f626-44f4-8a4b-fe52f6e528a3.png)
+
+Langkah 4 Membuat Controller
+Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers lalu masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175327777-4b19051d-05c0-4d03-ac62-8f6174d68850.png)
+
+Langkah 5 Membuat View
+Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.
+![image](https://user-images.githubusercontent.com/101724604/175327997-140dae69-4d54-4fe4-be42-47d99c1f4938.png)
+
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel maka hasilnya akan seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175328198-8523ce33-ede7-43ab-b561-3260eb45a180.png)
+
+Terlihat belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database query agar dapat ditampilkan datanya seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175328341-28c0b1b4-f8de-4c00-befd-4748cca8e81a.png)
+
+Lalu refresh kembali browser, sehingga akan ditampilkan hasilnya seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175328447-91aa09a8-2c15-421a-8e49-0b4cdb52bc5d.png)
+
+
+
+
 
 
 

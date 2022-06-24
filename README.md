@@ -126,6 +126,48 @@ Terlihat belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data p
 Lalu refresh kembali browser, sehingga akan ditampilkan hasilnya seperti berikut.
 ![image](https://user-images.githubusercontent.com/101724604/175328447-91aa09a8-2c15-421a-8e49-0b4cdb52bc5d.png)
 
+Langkah 6 Membuat Tampilan Detail Artikel
+
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
+![image](https://user-images.githubusercontent.com/101724604/175575565-10e1dcd7-fb4c-43f3-aa98-3b392d89537c.png)
+
+
+Langkah 7 Membuat View Detail
+Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175575691-955b63c3-0116-4648-b214-0ada0decb50d.png)
+
+Langkah 8 Membuat Routing untuk artikel detail
+Buka kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail maka hasilnya akan seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175575904-951d961b-c7ff-4b1b-9822-7bfcc9196b34.png)
+
+Langkah 9 Membuat Menu Admin
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index() seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175576271-6413442d-d8ad-4423-b602-12816149e30a.png)
+
+Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175577129-7cebfeb4-ea4a-47d5-ae86-f64ad54955bb.png)
+
+
+Setelah itu tambahkan routing untuk menu admin seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175577475-ae9c4b99-33d2-4796-a4e2-d9f57a296d6f.png)
+
+Kemudian akses menu admin dengan url http://localhost:8080/admin/artikel seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175577683-b625dbc3-dcf9-4e46-bea4-7676683bf50b.png)
+
+Langkah 10 Menambah Data Artikel
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add() seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175579253-ebb0503b-03c8-4d61-ade3-f2019a9b08bf.png)
+
+
+Kemudian buat view untuk form tambah dengan nama form_add.php seperti berikut.
+
+
+
+
+
+
+
 
 
 

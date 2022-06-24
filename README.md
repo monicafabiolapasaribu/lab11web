@@ -183,3 +183,4 @@ Kemudian buat view untuk form tambah dengan nama form_add.php seperti berikut.
 
 
 
+

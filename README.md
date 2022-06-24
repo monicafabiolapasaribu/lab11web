@@ -110,6 +110,7 @@ Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pa
 
 Langkah 4 Membuat Controller
 Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers lalu masukkan kode seperti berikut.
+
 ![image](https://user-images.githubusercontent.com/101724604/175327777-4b19051d-05c0-4d03-ac62-8f6174d68850.png)
 
 Langkah 5 Membuat View

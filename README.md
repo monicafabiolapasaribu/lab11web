@@ -161,6 +161,11 @@ Tambahkan fungsi/method baru pada Controller Artikel dengan nama add() seperti b
 
 
 Kemudian buat view untuk form tambah dengan nama form_add.php seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/175593883-d8ecc1e4-737c-4517-9259-746c871b9117.png)
+
+![image](https://user-images.githubusercontent.com/101724604/175595427-93bcd2dd-35c3-45d9-ac30-72eb2c790437.png)
+
+
 
 
 

@@ -185,6 +185,32 @@ Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudi
 Buat folder baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php dan masukkan kode seperti berikut.
 ![image](https://user-images.githubusercontent.com/101724604/176091232-6e25f139-346b-417d-8313-803f3ab5f983.png)
 
+- Langkah 5 Membuat Database Seeder
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian ketik perintah berikut:
+![image](https://user-images.githubusercontent.com/101724604/176092438-bfe1c170-8026-4edd-9149-bebc14150e3b.png)
+
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+![image](https://user-images.githubusercontent.com/101724604/176092609-15e29458-6dfe-4cd1-b5f9-0e3a85c7d52f.png)
+
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+![image](https://user-images.githubusercontent.com/101724604/176093213-6d2bbe09-4997-46af-a196-a2b71c8e39d2.png)
+
+
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+![image](https://user-images.githubusercontent.com/101724604/176094180-5ae2e330-5eea-40f2-aaf5-86510df87e8c.png)
+
+- Langkah 6 Menambahkan Auth Filter
+Selanjutnya membuat filter untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters dan masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/176094539-0d4c2870-9cc5-4149-8137-cc25769266f2.png)
+
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+![image](https://user-images.githubusercontent.com/101724604/176095142-64380279-bf8b-4926-a761-bde8615429fd.png)
+
+
+
+
+
+
 
 
 

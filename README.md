@@ -170,6 +170,21 @@ Kemudian buat view untuk form tambah dengan nama form_add.php seperti berikut.
 - Langkah 1 Membuat Tabel User
 Membuat tabel user pada database lab_ci4 seperti berikut.
 
+![image](https://user-images.githubusercontent.com/101724604/176089390-f67c3b30-0ad6-4752-b34e-77a8dcc0d930.png)
+
+- Langkah 2 Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada direktori app/Models dengan nama UserModel.php dan masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/176090879-9ca2bac9-947c-4360-b475-3d7640c817d7.png)
+
+- Langkah 3 Membuat Controller User
+Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudian tambahkan method index() untuk menampilkan daftar user, dan method login() untuk proses login dan masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/176091120-c18b8f37-2a21-4908-8c07-effa0ba2c622.png)
+![image](https://user-images.githubusercontent.com/101724604/176091151-ba1c4757-4802-4ecd-8a08-1d0c277c66a7.png)
+
+- Langkah 4 Membuat View Login
+Buat folder baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php dan masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/176091232-6e25f139-346b-417d-8313-803f3ab5f983.png)
+
 
 
 

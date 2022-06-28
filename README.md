@@ -165,6 +165,12 @@ Kemudian buat view untuk form tambah dengan nama form_add.php seperti berikut.
 
 ![image](https://user-images.githubusercontent.com/101724604/175595427-93bcd2dd-35c3-45d9-ac30-72eb2c790437.png)
 
+#Praktikum 13: Framework Lanjutan (Modul Login)
+
+- Langkah 1 Membuat Tabel User
+Membuat tabel user pada database lab_ci4 seperti berikut.
+
+
 
 
 

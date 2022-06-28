@@ -260,7 +260,7 @@ Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut
 Ujicoba file upload dengan mengakses menu tambah artikel.
 ![image](https://user-images.githubusercontent.com/101724604/176228444-539690f5-ebf9-4392-a154-f96c7591d7ec.png)
 
-![image](https://user-images.githubusercontent.com/101724604/176228037-c943f3a7-bcc3-45b1-b1b8-1cbd32c0df0e.png)
+
 
 
 

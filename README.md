@@ -206,6 +206,14 @@ Selanjutnya membuat filter untuk halaman admin. Buat file baru dengan nama Auth.
 Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
 ![image](https://user-images.githubusercontent.com/101724604/176095142-64380279-bf8b-4926-a761-bde8615429fd.png)
 
+- Langkah 7 Fungsi Logout
+Tambahkan method logout pada Controller User dan masukkan kode seperti berikut:
+![image](https://user-images.githubusercontent.com/101724604/176095960-e87c5564-6c58-46fc-af0c-c6c747d6beff.png)
+
+- Langkah 8 Tombol Logout
+Menambahkan tombol Logout pada menu header admin dengan cara ke direktori app\view\template lalu buka file admin_header.php dan masukkan kode seperti berikut.
+![image](https://user-images.githubusercontent.com/101724604/176096478-37090659-11a6-41b8-8323-e1ddab533785.png)
+
 
 
 

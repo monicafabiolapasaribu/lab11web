@@ -245,7 +245,7 @@ Dan pada link pager ubah seperti berikut.
 ![image](https://user-images.githubusercontent.com/101724604/176225724-5d36bee3-4ad2-4bdf-9f79-83e557f28846.png)
 
 Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
-![image](https://user-images.githubusercontent.com/101724604/176226235-cc265660-8f70-463e-8d50-438499394dfc.png)
+![image](https://user-images.githubusercontent.com/101724604/177022058-b3d1dfd2-7f91-4a6a-ac24-eadda0ed390b.png)
 
 - Langkah 3 Upload Gambar
 Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
@@ -258,9 +258,8 @@ Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut
 ![image](https://user-images.githubusercontent.com/101724604/176228035-baa9f1eb-3d1e-409d-b10d-81a1d65f8509.png)
 
 Ujicoba file upload dengan mengakses menu tambah artikel.
+![image](https://user-images.githubusercontent.com/101724604/177022064-9c91ac00-c40c-4956-8583-eeb3d91429cb.png)
 
-
-![image](https://user-images.githubusercontent.com/101724604/176228444-539690f5-ebf9-4392-a154-f96c7591d7ec.png)
 
 
 
